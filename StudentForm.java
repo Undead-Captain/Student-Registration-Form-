@@ -4,6 +4,7 @@ import javax.swing.*;
 public class StudentForm {
     public static void main(String[] args) {
         JFrame f = new JFrame("Student Registration");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JLabel l1 = new JLabel("Name:"), l2 = new JLabel("Age:");
         JTextField t1 = new JTextField(), t2 = new JTextField();
         JButton b = new JButton("Submit");
